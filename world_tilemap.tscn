@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cy4xpy0v321uu"]
+
+[ext_resource type="Script" uid="uid://c0v3pkqmpiwni" path="res://tile_map.gd" id="1_mblhf"]
+[ext_resource type="TileSet" uid="uid://bhsc1uojfyhvc" path="res://world_layer.tres" id="1_xncqt"]
+
+[node name="WorldTilemap" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource("1_xncqt")
+format = 2
+script = ExtResource("1_mblhf")

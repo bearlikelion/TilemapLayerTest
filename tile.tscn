@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://ci0eofxsg3n2k"]
+
+[ext_resource type="Texture2D" uid="uid://bkdr7w6l217jk" path="res://icon.svg" id="1_n3f48"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_n3f48"]
+size = Vector2(32, 32)
+
+[node name="Tile" type="MeshInstance2D"]
+mesh = SubResource("QuadMesh_n3f48")
+texture = ExtResource("1_n3f48")
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
+position = Vector2(-2.38419e-07, 1.43051e-06)
+scale = Vector2(1.6, 1.6)
