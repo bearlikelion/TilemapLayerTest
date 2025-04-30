@@ -8,4 +8,5 @@
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource("1_xncqt")
 format = 2
+layer_0/navigation_enabled = false
 script = ExtResource("1_mblhf")
