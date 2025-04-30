@@ -27,6 +27,6 @@ func fill_tilemap() -> void:
 	for y in range(map_height):
 		for x in range(map_width):
 			# set_cell(Vector2i(x, y), 1, Vector2i(0, 0), 1)
-			set_cell(Vector2i(x, y), 0, Vector2i(1,1))
+			set_cell(Vector2i(x, y), 0, Vector2i(0, 0))
 
 	print("Fill Tiles: %sms" % str(Time.get_ticks_msec() - start_time))
